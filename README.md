@@ -8,10 +8,7 @@ We computationally analyze a one of a kind individual-level longitudinal homeles
 ### Prerequisites
 Python 2.7 or above and the following libraries
 ```
-  whatever libraries here
-
-  e.g., Pandas
-  ...
+pandas, mumpy, matplotlib, os, sklearn
 ```
 
 ### Files
