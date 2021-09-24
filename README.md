@@ -12,11 +12,19 @@ pandas, mumpy, matplotlib, os, sklearn
 ```
 
 ### Files
-Provide description of files...
 ```
-   file1.txt: one line description
-   file2.py: one line description
-   ...
+   ToyDataset.csv: A sample dataset with the features and trajectories. 
+   step1_Complete Trajectory Adjacency list preparation for Project ID.ipynb: Creates an adjacency list for the network of project ids 
+   step1_Complete Trajectory Adjacency list preparation for Project Type.ipynb: Creates an adjacency list for the network of project types
+   step2_One hot encoding.ipynb: Prepares the one hot encoded version of the dataset.
+   step3_Scheme 1 analysis.ipynb: Prepares and analyzes the dataset for scheme 1. 
+   step3_Scheme 2 analysis.ipynb: Prepares and analyzes the dataset for scheme 2. 
+   step3_Scheme 3 analysis.ipynb: Prepares and analyzes the dataset for scheme 3. 
+   step4_Link probability of project ID for figure 5.ipynb: Calculates the link probability for the network of project ids.
+   step4_Link probability of project type for figure 5.ipynb: Calculates the link probability for the network of project types.
+   step4_Link probability of project ID versus project type.ipynb: Compares the link probability both the networks.
+   step5_TF_IDF to the next.ipynb: Analyzes the similarity between the current and the next project type
+   step5_TF_IDF to the target.ipynb: Analyzes the similarity between the current and target project type.
 ```
 
 ### How to use
