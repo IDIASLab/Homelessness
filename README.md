@@ -34,7 +34,7 @@ The toy dataset shows a snippet of the data used after data cleaning and feature
 2. Create a separate set of data, labelling each entry and exit point as per the scheme under observation. 
 3. Analyse the reentry, success, and dropout porbabilities for the different schemes.
 4. Plot the cumulative distribution function for each scheme. 
-5. Prepare and analyse the link probability for the both the networks of project types and ids.
+5. Prepare and analyse the link probability for both the networks of project types and ids.
 6. Anaylse the similarity between project types and their similarity with the target. 
 
 You may look for inspiration on the structure and kind of text to include in existing repos. For instance, https://github.com/ogencoglu/fair_cyberbullying_detection
