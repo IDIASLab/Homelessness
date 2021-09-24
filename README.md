@@ -17,18 +17,25 @@ pandas, mumpy, matplotlib, os, sklearn
    step1_Complete Trajectory Adjacency list preparation for Project ID.ipynb: Creates an adjacency list for the network of project ids 
    step1_Complete Trajectory Adjacency list preparation for Project Type.ipynb: Creates an adjacency list for the network of project types
    step2_One hot encoding.ipynb: Prepares the one hot encoded version of the dataset.
-   step3_Scheme 1 analysis.ipynb: Prepares and analyzes the dataset for scheme 1. 
-   step3_Scheme 2 analysis.ipynb: Prepares and analyzes the dataset for scheme 2. 
-   step3_Scheme 3 analysis.ipynb: Prepares and analyzes the dataset for scheme 3. 
+   step3_Scheme 1 analysis.ipynb: Prepares and analyses the dataset for scheme 1. 
+   step3_Scheme 2 analysis.ipynb: Prepares and analyses the dataset for scheme 2. 
+   step3_Scheme 3 analysis.ipynb: Prepares and analyses the dataset for scheme 3. 
    step4_Link probability of project ID for figure 5.ipynb: Calculates the link probability for the network of project ids.
    step4_Link probability of project type for figure 5.ipynb: Calculates the link probability for the network of project types.
-   step4_Link probability of project ID versus project type.ipynb: Compares the link probability both the networks.
-   step5_TF_IDF to the next.ipynb: Analyzes the similarity between the current and the next project type
-   step5_TF_IDF to the target.ipynb: Analyzes the similarity between the current and target project type.
+   step4_Link probability of project ID versus project type.ipynb: Compares the link probability of both the networks.
+   step5_TF_IDF to the next.ipynb: Analyses the similarity between the current and the next project type
+   step5_TF_IDF to the target.ipynb: Analyses the similarity between the current and target project type.
 ```
 
 ### How to use
-Explain
+The toy dataset shows a snippet of the data used after data cleaning and feature preprocessing have been done. This data can be directly run through the jupyter notebook files for the following purposes:
+
+1. Prepare the adjacency lists for the two transistion graphs: (i) network of project ids and (ii) network of project types.
+2. Create a separate set of data, labelling each entry and exit point as per the scheme under observation. 
+3. Analyse the reentry, success, and dropout porbabilities for the different schemes.
+4. Plot the cumulative distribution function for each scheme. 
+5. Prepare and analyse the link probability for the both the networks of project types and ids.
+6. Anaylse the similarity between project types and their similarity with the target. 
 
 You may look for inspiration on the structure and kind of text to include in existing repos. For instance, https://github.com/ogencoglu/fair_cyberbullying_detection
 
