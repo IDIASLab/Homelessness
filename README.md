@@ -1,6 +1,32 @@
 # Introduction
 This repository provides the full code and results for the manuscript titled "Peeking Through the Homelessness System with a Network Science Lens" by Charalampos Chelmis and Khandker Sadia Rahman.
 
+## Citation
+To cite our paper, please use the following reference:
+
+Charalampos Chelmis and Khandker Sadia Rahman "Peeking Through the Homelessness System with a Network Science Lens." IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM '21). doi: 10.1145/3487351.3488321.
+
+BibTeX:
+``` 
+@article{chelmis2021asonam, 
+  author = {Chelmis, Charalampos and Rahman, Khandker Sadia},
+  title = {Peeking through the Homelessness System with a Network Science Lens},
+  year = {2021},
+  isbn = {9781450391283},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  url = {https://doi.org/10.1145/3487351.3488321},
+  doi = {10.1145/3487351.3488321},
+  booktitle = {Proceedings of the 2021 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining},
+  pages = {69–73},
+  numpages = {5},
+  keywords = {socially important data science, computational social science, applied network science, human services},
+  location = {Virtual Event, Netherlands},
+  series = {ASONAM '21}
+}
+```
+
+
 ## Quick Overview
 We computationally analyze a one of a kind individual-level longitudinal homelessness dataset to further our understanding of how individuals progress through the homelessness system with the ultimate goal of securing stable housing. We model the homelessness system as a network of interconnected services which individuals traverse over time and we formalize the concept of stability upon exit of the system. We show that regardless of starting conditions, the ultimate goal is either reached quickly or not at all, indicating the importance of addressing the homeless’ needs early on to avoid them "giving up". Next, we formalize similarity between homeless services inspired by a view of the homelessness system as a heterogeneous network. We show that in its current form the homelessness system is inefficient in promoting trajectories towards positive outcomes.
 
@@ -36,6 +62,3 @@ The toy dataset shows a snippet of the data used after data cleaning and feature
 4. Plot the cumulative distribution function for each scheme. 
 5. Prepare and analyse the link probability for both the networks of project types and ids.
 6. Anaylse the similarity between project types and their similarity with the target. 
-
-You may look for inspiration on the structure and kind of text to include in existing repos. For instance, https://github.com/ogencoglu/fair_cyberbullying_detection
-
