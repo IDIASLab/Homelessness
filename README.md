@@ -1,5 +1,5 @@
 # Introduction
-This repository provides the full code and results for the manuscript titled "Peeking Through the Homelessness System with a Network Science Lens" by Charalampos Chelmis and Khandker Sadia Rahman.
+This repository provides the code for the manuscript titled "Peeking Through the Homelessness System with a Network Science Lens" by Charalampos Chelmis and Khandker Sadia Rahman.
 
 ## Citation
 To cite our paper, please use the following reference:
