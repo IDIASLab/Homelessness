@@ -51,6 +51,18 @@ pandas, mumpy, matplotlib, os, sklearn,
    step4_Link probability of project ID versus project type.ipynb: Compares the link probability of both the networks.
    step5_TF_IDF to the next.ipynb: Analyses the similarity between the current and the next project type
    step5_TF_IDF to the target.ipynb: Analyses the similarity between the current and target project type.
+   step_6_Cosine similarity computation at each step for project type.ipynb: Computes the cosine similarity between project types for each step.
+   step_6_Cosine similarity trends to the actual exit.ipynb: Computes the cosine similarity of project type at each step to the actual exit.
+   step_6_Cosine similarity trends to the next project type.ipynb: Computes the cosine similarity of current project type at each step to the next project type.
+   step_6_Cosine similarity trends to ultimate goal.ipynb: Computes the cosine similarity of project type at each step to ultimate goal.
+   step_7_Similarity between living situation and the ultimate goal.ipynb: Computes the similarity between initial living situation with the ultimate goal.
+   step_7_Similarity of first and last step project type with the ultimate goal.ipynb: Computes the similarity between first step (and last step) with the ultimate goal.
+   step_8_Why give up? outdegree,indegree.ipynb: Comptues the outdegree and indegree.
+   step_8_Why give up? page rank.ipynb: Computes the page rank.
+   step_9_Cycle_average no of backlink per mission .ipynb: Computes the average number of backlink per mission.
+   step_9_Cycle_percent atleast one backlink.ipynb: Computes the percent of at least one backlink.
+   step_10_Why paths go backward?.ipynb: Computes probability of backlinks conditioned on change (and no change) in cosine similarity at the previous step.   
+   
 ```
 
 ### How to use
@@ -62,3 +74,6 @@ The toy dataset shows a snippet of the data used after data cleaning and feature
 4. Plot the cumulative distribution function for each scheme. 
 5. Prepare and analyse the link probability for both the networks of project types and ids.
 6. Anaylse the similarity between project types and their similarity with the target. 
+7. Analyse the similarity of initial living situation and project type at first step (and last step) with ultimate goal
+8. Analyse the outdegree, indegree, and page rank.
+9. Analyse cycle in trajectories and appearance of backlinks with changes in cosine similarity at the prviouse step
