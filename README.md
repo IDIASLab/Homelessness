@@ -1,7 +1,8 @@
-<!-- # Introduction
-This repository provides the code for the manuscript titled "Peeking Through the Homelessness System with a Network Science Lens" by Charalampos Chelmis and Khandker Sadia Rahman.
+# Introduction
+This repository provides the code for the manuscript titled "Why do Some Homeless Succeed While Others
+Falter? A Network Science Perspective" by Charalampos Chelmis and Khandker Sadia Rahman.
 
-## Citation
+<!-- ## Citation
 To cite our paper, please use the following reference:
 
 Charalampos Chelmis and Khandker Sadia Rahman "Peeking Through the Homelessness System with a Network Science Lens." IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM '21). doi: 10.1145/3487351.3488321.
@@ -24,11 +25,32 @@ BibTeX:
   location = {Virtual Event, Netherlands},
   series = {ASONAM '21}
 }
-```
+```-->
 
 
 ## Quick Overview
-We computationally analyze a one of a kind individual-level longitudinal homelessness dataset to further our understanding of how individuals progress through the homelessness system with the ultimate goal of securing stable housing. We model the homelessness system as a network of interconnected services which individuals traverse over time and we formalize the concept of stability upon exit of the system. We show that regardless of starting conditions, the ultimate goal is either reached quickly or not at all, indicating the importance of addressing the homeless’ needs early on to avoid them "giving up". Next, we formalize similarity between homeless services inspired by a view of the homelessness system as a heterogeneous network. We show that in its current form the homelessness system is inefficient in promoting trajectories towards positive outcomes.-->
+
+Homelessness, a long–standing societal problem,
+appears to be on the rise, fueled in part by the Covid–19
+pandemic. Looking at the homelessness system as a network
+of interconnected services which individuals traverse over time,
+we seek to shed light on their progression towards securing
+stable housing. We formalize the concept of stability upon exit,
+and show that regardless of starting conditions, the ultimate
+goal is either reached quickly or not at all, indicating the
+importance of addressing the homeless’ needs early on to avoid
+them “giving up”. To better understand the causes that may
+contribute to positive outcomes for certain individuals versus
+others, we computationally analyze their pathways through the
+network of homeless services. We confirm the intuition that some
+individuals face more challenges than others based on their initial
+living conditions and initial placement to homelessness services.
+At the same time, we discover that simple signals can act as good
+indicators of individuals at risk of “falling through the cracks”.
+Being able to predict such outcomes is critical to design assistive
+technology that can retain individuals who would otherwise falter.
+
+<!--We computationally analyze a one of a kind individual-level longitudinal homelessness dataset to further our understanding of how individuals progress through the homelessness system with the ultimate goal of securing stable housing. We model the homelessness system as a network of interconnected services which individuals traverse over time and we formalize the concept of stability upon exit of the system. We show that regardless of starting conditions, the ultimate goal is either reached quickly or not at all, indicating the importance of addressing the homeless’ needs early on to avoid them "giving up". Next, we formalize similarity between homeless services inspired by a view of the homelessness system as a heterogeneous network. We show that in its current form the homelessness system is inefficient in promoting trajectories towards positive outcomes.-->
 
 
 ### Prerequisites
